@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createcontract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simplearray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chinklinkDemo/SimpleFactory.sol": "SimpleFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"chinklinkDemo/SimpleFactory.sol": {
+			"keccak256": "0x7afa27cba76598e7f231affcbb6d29d78bf402380106c1f4b67c1e65d0ef9062",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e14369804bf07b4397d7aba7ae73324233c079d9bfb0d0150d91cae3841a3446",
+				"dweb:/ipfs/Qmd5ZJGkXxJKEuicQXjhanPZQQVdR4LnNrQjhjzXjNsERT"
+			]
+		},
+		"chinklinkDemo/SimpleStorage.sol": {
+			"keccak256": "0x8162e48cf3425ca177d3c4122e7d18450db234e4eccfbff7be889eef7dedbc71",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fccd0978a13ef7e8c48fc4141abf3915fe7b6fbc41a07f050cb7b145a4f0655d",
+				"dweb:/ipfs/QmV87PagEm8D8zDdRsmRMSBg7StS8NaDunG3UgMhVYeKPg"
+			]
+		}
+	},
+	"version": 1
+}

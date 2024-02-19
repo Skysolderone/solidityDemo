@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"interfacel.sol": "U"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interfacel.sol": {
+			"keccak256": "0x75ca89cc3ca52370e8eaa1116e55d0211bc74d78a32faf1efe814a0c4b5a3445",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://06a6917021b97b7563203da8fae19c5d1ab4940721c2bccd9654cfd59a3ea756",
+				"dweb:/ipfs/QmYXdvpXrR4XFrNamQ5vNJt6PLPKjDEMUSNt7J2rBGMYbP"
+			]
+		}
+	},
+	"version": 1
+}

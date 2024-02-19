@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "auctions",
+				"outputs": [
+					{
+						"internalType": "contract Auction",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createAuction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"auction/auction.sol": "CreateAuction"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"auction/auction.sol": {
+			"keccak256": "0xf81a33712544ac352ea456995e60e146c588f6b5a54b2d1a2bcb9bbd993213ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60c1cdd53f52b168efb39245b65d3c8048a227714b7c3cd2e383c74d9bc99ce4",
+				"dweb:/ipfs/QmPSKuoStceB8x2pWCRhQUhgBzgLUVVGMVHP7CWJD46NJn"
+			]
+		}
+	},
+	"version": 1
+}
